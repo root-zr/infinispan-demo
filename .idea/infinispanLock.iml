@@ -101,5 +101,6 @@
     <orderEntry type="library" name="Maven: io.reactivex.rxjava3:rxjava:3.0.4" level="project" />
     <orderEntry type="library" name="Maven: org.reactivestreams:reactive-streams:1.0.3" level="project" />
     <orderEntry type="library" name="Maven: org.infinispan:infinispan-commons-test:12.1.7.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.infinispan:infinispan-clustered-lock:12.1.7.Final" level="project" />
   </component>
 </module>

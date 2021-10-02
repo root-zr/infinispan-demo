@@ -3,6 +3,14 @@
 #### 介绍
 对中间件infinispan的应用
 
+Infinispan是一个key/value的数据存储缓存。它既可以用作嵌入式Java库，也可以用作通过各种协议（Hot Rod、REST和Memcached）远程访问的独立于语言的服务。它提供事务、事件、查询和分布式处理等高级功能，以及与JCacheAPI标准、CDI、Hibernate、WildFly、Spring缓存、Spring会话、Lucene、Spark和Hadoop等框架的大量集成。主要可以用代替数据库来做本地的分布式缓存，分布式锁等。
+
+更多内容可以参考https://infinispan.org/docs/9.4.x/user_guide/user_guide.html
+
+
+
+关于配置maven的文档https://infinispan.org/docs/stable/titles/embedding/embedding.html
+
 #### 软件架构
 软件架构说明
 

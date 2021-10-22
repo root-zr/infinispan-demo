@@ -1,0 +1,2 @@
+org\infinispan\test\config\CorsConfig.class
+org\infinispan\test\clusteredLock\ClusteredLock.class

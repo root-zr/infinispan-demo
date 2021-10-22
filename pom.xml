@@ -20,21 +20,6 @@
     </properties>
 
 
-
-<!--    <dependencyManagement>-->
-
-<!--        <dependencies>-->
-<!--            <dependency>-->
-<!--                <groupId>org.infinispan</groupId>-->
-<!--                <artifactId>infinispan-bom</artifactId>-->
-<!--                <version>${version.infinispan}</version>-->
-<!--                <type>pom</type>-->
-<!--                <scope>import</scope>-->
-<!--            </dependency>-->
-<!--        </dependencies>-->
-
-<!--    </dependencyManagement>-->
-
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -73,30 +58,7 @@
 
         <dependency>
             <groupId>org.infinispan</groupId>
-            <artifactId>infinispan-core</artifactId>
-            <version>${version.infinispan}</version>
-        </dependency>
-
-        <dependency>
-            <groupId>org.infinispan</groupId>
-            <artifactId>infinispan-spring5-common</artifactId>
-            <version>${version.infinispan}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.infinispan</groupId>
-            <artifactId>infinispan-spring5-embedded</artifactId>
-            <version>${version.infinispan}</version>
-        </dependency>
-
-        <dependency>
-            <groupId>org.infinispan</groupId>
-            <artifactId>infinispan-commons</artifactId>
-            <version>${version.infinispan}</version>
-        </dependency>
-        <!-- TODO should be here? -->
-        <dependency>
-            <groupId>org.infinispan</groupId>
-            <artifactId>infinispan-commons-test</artifactId>
+            <artifactId>infinispan-spring-boot-starter-embedded</artifactId>
             <version>${version.infinispan}</version>
         </dependency>
 
@@ -106,6 +68,10 @@
             <version>${version.infinispan}</version>
         </dependency>
 
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
 
 
     </dependencies>
